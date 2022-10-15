@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<title>Activity 3</title>
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript">
+        function A() {
+            var a1 = "<i>First number is 10</i>";
+            var b1 = "<u>Second number 30</u>"
+            var c1 = "The sum is 40"
+            document.getElementById("a").innerHTML = a1;
+            document.getElementById("b").innerHTML = b1;
+            document.getElementById("c").innerHTML = c1;
+        }
+
+        function B() {
+            var d1 = "<i>First number is 10</i>";
+            var e1 = "<u>Second number is 5</u>"
+            var f1 = "The difference is 5"
+            document.getElementById("d").innerHTML = d1;
+            document.getElementById("e").innerHTML = e1;
+            document.getElementById("f").innerHTML = f1;
+        }
+
+        function C() {
+            var g1 = "<i>First number is 3</i>";
+            var h1 = "<u>Second number 5</u>"
+            var i1 = "The times is 15"
+            document.getElementById("g").innerHTML = g1;
+            document.getElementById("h").innerHTML = h1;
+            document.getElementById("i").innerHTML = i1;
+        }
+
+        function D() {
+            var j1 = "<i>First number is 15</i>";
+            var k1 = "<u>Second number 15</u>"
+            var l1 = "The quotient is 1"
+            document.getElementById("j").innerHTML = j1;
+            document.getElementById("k").innerHTML = k1;
+            document.getElementById("l").innerHTML = l1;
+        }
+    </script>
+</head>
+
+<body>
+    <input type="button" value="+" onclick="A()"><br>
+    <span id="a"></span><br>
+    <span id="b"></span><br>
+    <span id="c"></span><br>
+
+    <input type="button" value="-" onclick="B()"><br>
+    <span id="d"></span><br>
+    <span id="e"></span><br>
+    <span id="f"></span><br>
+
+    <input type="button" value="*" onclick="C()"><br>
+    <span id="g"></span><br>
+    <span id="h"></span><br>
+    <span id="i"></span><br>
+
+    <input type="button" value="/" onclick="D()"><br>
+    <span id="j"></span><br>
+    <span id="k"></span><br>
+    <span id="l"></span><br>
+    <button onclick="history.back()">Go Back</button>
+</body>
+
+</html>
